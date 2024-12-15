@@ -14,14 +14,25 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-section {
+  flex: 3;
+  background-color: rgb(86, 89, 255); /* צבע לחלק השמאלי */
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.right-section {
+  flex: 1;
+  background-color: rgb(209, 213, 255); /* צבע לחלק הימני */
+  margin: 10px;
+  border-radius: 10px;
 }
 
 .App-link {
